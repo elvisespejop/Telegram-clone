@@ -3,7 +3,13 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function HomeScreen() {
-  return <Redirect href={'/(home)/(tabs)'} />;
+  <Redirect href={"/(home)/(tabs)"}/>;
+ // return (
+   // <View style={styles.container}>
+     // <Text>Hello World</Text>
+      //<StatusBar style="auto" />
+    //</View>
+  //);
 }
 
 const styles = StyleSheet.create({
@@ -14,4 +20,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
